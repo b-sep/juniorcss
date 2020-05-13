@@ -11,7 +11,7 @@ body {
     background-attachment: fixed;
     font-family: monospace;
     height: 100vh;
-    font-size: 12px;
+    font-size: 18px;
   }
 
   /* se a tela tiver pelo menos 400px vai carregar esses estilos */
