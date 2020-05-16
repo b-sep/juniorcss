@@ -101,17 +101,63 @@ body {
     font-style: italic;
   }
 
+  .sobre {
+    color: white;
+  }
+
+  .sobre p {
+    text-indent: 1.4em;
+    margin-bottom: 1.4em;
+    text-align: justify;
+  }
+
+  .sobre a {
+    color:white;
+    text-decoration: underline;
+    transition: background-color 1s;
+  }
+
+  .sobre a:hover {
+    background-color: red;
+    text-decoration: none;
+  }
+
+  .sobre .avatar {
+    float: left;
+    margin-right: 1em;
+  }
+
+  .sobre .avatar img {
+    transition: all 0.5s;
+    border-radius: 50%;
+  }
+
+  .sobre .avatar img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+  }
+
   .contato h2,
-  .portfolio h2 {
+  .sobre h2 {
     color: white;
     margin-bottom: 1em;
     font-size: 2em;
     text-align: center;
   }
 
+  .sobre,
   .contato,
   .portfolio {
     padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projetoo h2 {
+  color: white;
+  text-align: center;
+  margin-top: 7em;
+  font-size: 2em;
 }
 
 .portfolio .grid {
